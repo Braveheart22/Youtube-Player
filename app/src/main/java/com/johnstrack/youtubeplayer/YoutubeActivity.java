@@ -24,7 +24,7 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 //        button1.setText("Button Added");
 //        layout.addView(button1);
 
-        YouTubePlayerView player = new YouTubePlayer(this);
+        YouTubePlayerView player = new YouTubePlayerView(this);
         player.setLayoutParams(new ConstraintLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         layout.addView(player);
     }
